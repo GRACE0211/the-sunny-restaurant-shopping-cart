@@ -1,0 +1,199 @@
+[
+    
+    {
+        "id": 1,
+        "type": "Sandwiches",
+        "title": "Ham & Swiss Sandwich",
+        "description":"includes ham, onion, tomato slice, lettuce and sauce",
+        "price": 110,
+        "image":"https://media.istockphoto.com/id/1256670482/photo/turkey-sandwich-with-tomato-and-lettuce.jpg?s=612x612&w=0&k=20&c=CPwIFBHQqOob3SNZbegKKjUVL6xkUZgoQ2cxT0jcUrQ="
+    },
+    {
+        "id": 2,
+        "type": "Sandwiches",
+        "title": "Chicken Sandwich",
+        "description":"includes chicken, onion, tomato slice, lettuce and sauce",
+        "price": 120,
+        "image":"https://c.ndtvimg.com/2021-07/vckh316o_grilled-chicken-sandwich_625x300_28_July_21.jpg"
+    },
+    {
+        "id": 3,
+        "type": "Sandwiches",
+        "title": "Beef Sandwich",
+        "description":"includes beef, onion, tomato slice, lettuce and sauce",
+        "price": 150,
+        "image":"https://static.onecms.io/wp-content/uploads/sites/19/2000/01/01/sandwiches-ck-222636-r-2000.jpg"
+    },
+    {
+        "id": 4,
+        "type": "Sandwiches",
+        "title": "Tuna & Salad Sandwich",
+        "description":"includes tuna, onion, tomato slice, lettuce and sauce",
+        "price": 140,
+        "image":"https://www.spendwithpennies.com/wp-content/uploads/2020/07/1200-Tuna-Salad-SpendWithPennies-4.jpeg"
+    },
+    {
+        "id": 5,
+        "type": "Sandwiches",
+        "title": "Pepper & Eggs Sandwich",
+        "description":"includes egg, onion, tomato slice, lettuce and sauce",
+        "price": 100,
+        "image":"https://foodfanatic.co.uk/wp-content/uploads/2020/02/food-fanatic-peppers-and-eggs.jpg"
+    },
+    
+    {
+        "id": 6,
+        "type": "Hamburgers", 
+        "title": "Ham & Swiss Hamburger",
+        "description":"includes ham, onion, tomato slice, lettuce and sauce",
+        "price": 130,
+        "image":"https://www.saudereggs.com/content/uploads/2019/01/ham-egg-cheese-breakfast-burgers.jpg"
+    },
+    {
+        "id": 7,
+        "type": "Hamburgers", 
+        "title": "Chicken Hamburger",
+        "description":"includes chicken, onion, tomato slice, lettuce and sauce",
+        "price": 140,
+        "image":"https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2021-04-how-to-chicken-burgers%2F2021-04-19_ATK-52011"
+    },
+    {
+        "id": 8,
+        "type": "Hamburgers", 
+        "title": "Beef Hamburger",
+        "description":"includes beef, onion, tomato slice, lettuce and sauce",
+        "price": 170,
+        "image":"https://static.onecms.io/wp-content/uploads/sites/43/2022/09/26/25473-the-perfect-basic-burger-ddmfs-4x3-1350-1.jpg"
+    },
+    {
+        "id": 9,
+        "type": "Hamburgers", 
+        "title": "Tuna & Salad Hamburger",
+        "description":"includes tuna, onion, pickles, tomato slice, lettuce and sauce",
+        "price": 160,
+        "image":"https://www.garlicandzest.com/wp-content/uploads/2014/06/Spicy-Tuna-Salad-2-500x500.jpg"
+    },
+    {
+        "id": 10,
+        "type": "Hamburgers", 
+        "title": "Pepper & Eggs Hamburger",
+        "description":"includes egg, onion, tomato slice, lettuce and sauce",
+        "price": 120,
+        "image":"https://www.chocolatesandchai.com/wp-content/uploads/2020/03/Scrambled-Egg-Sandwich-for-Breakfast-5.jpg"
+    },
+    
+    {
+        "id": 11,
+        "type": "Pancakes", 
+        "title": "Original Pancakes",
+        "description":"includes pancake, butter and syrup",
+        "price": 100,
+        "image":"https://www.marionskitchen.com/wp-content/uploads/2021/08/20201116_Marions-Best-Pancakes-16-819x1024.jpeg"
+    },
+    {
+        "id": 12,
+        "type": "Pancakes", 
+        "title": "Ice Cream Pancakes",
+        "description":"includes pancake, syrup and ice cream",
+        "price": 120,
+        "image":"https://img.taste.com.au/imBmpWJN/taste/2020/04/may20_sticky-date-pancakes-with-ice-cream-160786-1.jpg"
+    },
+    {
+        "id": 13,
+        "type": "Pancakes", 
+        "title": "Strawberry Pancakes",
+        "description":"includes pancake, syrup and strawberries",
+        "price": 140,
+        "image":"https://www.californiastrawberries.com/wp-content/uploads/2021/11/heart-pancakes-500x500.png"
+    },
+    {
+        "id": 14,
+        "type": "Pancakes", 
+        "title": "Banana Pancakes",
+        "description":"includes pancake, syrup and bananas",
+        "price": 120,
+        "image":"https://static.onecms.io/wp-content/uploads/sites/43/2022/03/20/20334-Banana-Pancakes-mfs__2x3.jpg"
+    },
+    
+    {
+        "id": 15,
+        "type": "Omelettes", 
+        "title": "Ham Omelettes",
+        "description":"includes eggs, pepper and ham",
+        "price": 110,
+        "image":"https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/cheeseomelette_80621_16x9.jpg"
+    },
+    {
+        "id": 16,
+        "type": "Omelettes", 
+        "title": "Grilled Beef Omelettes",
+        "description":"includes eggs and grilled Beef",
+        "price": 150,
+        "image":"http://thecookingjar.com/wp-content/uploads/2014/08/big-steak-omelette-5.jpg"
+    },
+    {
+        "id": 17,
+        "type": "Omelettes", 
+        "title": "Grilled Pork Omelettes",
+        "description":"includes eggs and grilled pork with ketchup",
+        "price": 140,
+        "image":"https://www.lovelesscafe.com/wp-content/uploads/2020/02/pulled-pork-bbq-omelet.jpg"
+    },
+    {
+        "id": 18,
+        "type": "Omelettes", 
+        "title": "Satay chicken Omelettes",
+        "description":"includes eggs, chicken and satay sauce",
+        "price": 140,
+        "image":"https://img.taste.com.au/j0F5T0TP/taste/2016/11/peanut-chicken-omelette-31749-1.jpeg"
+    },
+    {
+        "id": 19,
+        "type": "Omelettes", 
+        "title": "Veggie Delite Omelettes",
+        "description":"includes eggs, mushrooms and lettuce",
+        "price": 120,
+        "image":"https://images-gmi-pmc.edge-generalmills.com/ab0d7c52-438b-4d8a-bcba-7d5eb18ee892.jpg"
+    },
+    
+    {
+        "id": 20,
+        "type": "Drinks", 
+        "title": "Ice Tea",
+        "description":"red tea with lemon and mint flavor",
+        "price": 70,
+        "image":"https://www.acouplecooks.com/wp-content/uploads/2020/07/Iced-Tea-001.jpg"
+    },
+    {
+        "id": 21,
+        "type": "Drinks", 
+        "title": "Milk Tea",
+        "description":"red tea with milk and dark brown sugar",
+        "price": 110,
+        "image":"https://www.thespruceeats.com/thmb/PzNbE-F5nD081ov0b2QZMP3CX4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hong-kong-milk-tea-recipe-766128-hero-03-e02081cb9c834426818382f766270903.jpg"
+    },
+    {
+        "id": 22,
+        "type": "Drinks", 
+        "title": "Americano",
+        "description":"hot water and espresso",
+        "price": 100,
+        "image":"http://cdn.shopify.com/s/files/1/0022/1393/7252/articles/20230113070552-caffe-americano-blog_1200x1200.webp?v=1673593629"
+    },
+    {
+        "id": 23,
+        "type": "Drinks", 
+        "title": "Latte",
+        "description":"hot freshly brewed dark roast espresso coffee and milk",
+        "price": 120,
+        "image":"https://www.roastycoffee.com/wp-content/uploads/mBPxUtTx-720x540.jpeg"
+    },
+    {
+        "id": 24,
+        "type": "Drinks", 
+        "title": "Orange Juice",
+        "description":"orange Juice and water",
+        "price": 90,
+        "image":"https://media.glamour.com/photos/612d343de274243a3defbc8f/4:3/w_3436,h_2577,c_limit/1225546255"
+    }
+]
