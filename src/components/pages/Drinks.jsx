@@ -15,10 +15,9 @@ export default function Drinks() {
     const { getTotalCartCount } = useContext(ShopContext);
     const count = getTotalCartCount();
     return (
-        
         <div className="mx-auto mb-20 flex w-10/12 flex-wrap gap-5 rounded-xl pt-16 md:pl-8 md:w-8/12 md:justify-between">
-        {filteredType.map(item => (
-            <StoreItem {...item}  key={item.id}/>
+            {filteredType.map(item => (
+                <StoreItem {...item}  key={item.id}/>
             ))}
             <NavLink to='/cart' className=" z-50 fixed h-12 w-12 right-5 bottom-16 items-center rounded-full bg-amber-800 hover:bg-amber-50 text-amber-50 hover:text-amber-800 shadow-amber-900/40 drop-shadow-md duration-300 transition hover:scale-105 ease-in-out">
                 <ShoppingCart size={24}  weight="bold"  className="relative left-3 top-3"/>
