@@ -18,10 +18,12 @@ export default function ShopContextProvider(props) {
     // 計算購物車內商品總金額 -> cart.jsx
     const getTotalCartAmount = () => {
         let totalAmount = 0;
+        // item === id
         for(const item in cartItems){
             if(cartItems[item] > 0){
                 let itemInfo = storeItems.find((product) => product.id === Number(item));
                 totalAmount += cartItems[item] * itemInfo.price;
+                // console.log(`${cartItems[item]} * ${itemInfo.price}`);
             }
         }
         return totalAmount;
