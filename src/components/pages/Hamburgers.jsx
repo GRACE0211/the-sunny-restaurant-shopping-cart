@@ -23,7 +23,7 @@ export default function Hamburgers() {
                 <span className="absolute -right-2 -top-3 h-7 w-7 rounded-full shadow-amber-500/50 drop-shadow-sm bg-amber-500 flex justify-center items-center">{count}</span>
             </NavLink>
         </div>
-            )
+    )
 }
 
 
