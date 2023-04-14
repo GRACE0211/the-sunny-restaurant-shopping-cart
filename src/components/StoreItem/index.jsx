@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { ShopContext } from '../../context/shop-context';
-import 'animate.css/animate.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default class StoreItem extends Component {
     static contextType = ShopContext;
@@ -17,6 +18,9 @@ export default class StoreItem extends Component {
         this.setState({title:this.props.title})
         this.setState({price:this.props.price})
         this.setState({image:this.props.image})
+        AOS.init({
+            duration: 1000,
+        });
     }
 
     static propTypes = {
@@ -28,10 +32,10 @@ export default class StoreItem extends Component {
         const { addToCart, cartItems } = this.context;
         const cartItemAmount = cartItems[this.state.id];
         return(
-            <div className="mx-auto lg:mx-0 md:w-max w-full overflow-hidden rounded-xl bg-white shadow-md transition duration-300 ease-in-out hover:scale-95 hover:bg-amber-300 hover:text-amber-50 md:max-w-2xl animate__animated animate__fadeInRight">
-                <div className="max-w-md md:flex md:items-center">
+            <div className="mx-auto lg:mx-0 md:w-max w-full overflow-hidden rounded-xl bg-white shadow-md transition duration-300 ease-in-out hover:scale-95 hover:bg-amber-300 hover:text-amber-50 md:max-w-2xl " data-aos="fade-left" data-aos-once="true">
+                <div className=" max-w-md md:flex md:items-center">
                     <div className="overflow-hidden md:shrink-0">
-                    <img className="h-40 w-full object-cover transition duration-300 ease-in-out hover:scale-110 md:h-48 md:w-60" src={this.state.image} alt="Modern building architecture" />
+                    <img className="h-40 w-full object-cover transition duration-300 ease-in-out md:h-48 md:w-60" src={this.state.image} alt="Modern building architecture" />
                 </div>
                 <div className="p-4">
                     <div className="text-sm font-extrabold uppercase text-amber-800">{this.state.title}</div>
