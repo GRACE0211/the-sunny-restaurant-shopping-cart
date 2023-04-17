@@ -47,7 +47,9 @@ export default function Header() {
                 <a href="/about">MENU</a>
             </li>
             <li className="border-b border-amber-400  mb-4">
-                <a href="/portfolio">SURVEY FORM</a>
+                <a href="https://grace0211.github.io/surveyform.github.io/survey%20form/survey%20form.html
+
+">SURVEY FORM</a>
             </li>
             <NavLink to='/sandwiches' className='py-2'>Sandwiches</NavLink>
             <NavLink to='/hamburgers' className='py-2'>Hamburgers</NavLink>
